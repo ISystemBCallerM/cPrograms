@@ -5,7 +5,6 @@ int convertToInt(char* arg);
 char* convertToBinary(int arg);
 int main(int argc,char* args[]){
 	printf("%s in binary is: ",args[1]);
-	//args[1]=convertToBinary(args[1]);
 	printf("%s",convertToBinary(convertToInt(args[1])));
 	return 0;
 }
