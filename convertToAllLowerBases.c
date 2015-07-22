@@ -2,7 +2,7 @@
 //and then find the value of the argument in every base where the highest symbol is 10 or lower.
 #include <stdio.h>
 int convertToInt(char* arg);
-char* convertToBinary(int arg); 
+char* convertToBinary(int arg);
 int main(int argc,char* args[]){
 	printf("%s in binary is: ",args[1]);
 	printf("%s",convertToBinary(convertToInt(args[1])));
